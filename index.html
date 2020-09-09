@@ -25,6 +25,17 @@
         f1() //2   闭包函数，所以可以使用原来的i值  ++i---->2
         f2() //1   另外赋值一个函数 
         console.log(i); //2   查找全局的i值
+
+
+        var obj = {
+            one: 1,
+            two: 2,
+            three: 3
+        }
+        var res = Object.keys(obj)
+        console.log(res);
+        var res2 = Object.values(obj)
+        console.log(res2);
     </script>
 
 </body>
